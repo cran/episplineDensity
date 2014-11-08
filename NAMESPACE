@@ -1,0 +1,7 @@
+export("epispline", "generateLinCon", "grad_expepispline","integrate.to.one",
+"obj.nloptr", "postproc", "preprocess.data", "setup.softinfo", "solveML",
+"expepi", "setup.optargs", "postproc.control")
+S3method("print", "episplineDensity")
+S3method("plot", "episplineDensity")
+import("nloptr")
+importFrom ("pracma", "trapz")
